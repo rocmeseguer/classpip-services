@@ -31,14 +31,11 @@
     "JornadaDeCompeticionFormulaUno": 33,
     "AlumnoJuegoDeCompeticionFormulaUno": 45,
     "EquipoJuegoDeCompeticionFormulaUno": 7,
-
-
-    "Escenario": 13,
-    "PuntoGeolocalizable": 25,
+    "Escenario": 17,
+    "PuntoGeolocalizable": 36,
     "Pregunta": 12,
-
     "Cuestionario": 19,
-    "PreguntaDelCuestionario": 25,
+    "PreguntaDelCuestionario": 27,
     "SesionClase": 27,
     "AsistenciaClase": 61,
     "FamiliaAvatares": 34,
@@ -74,13 +71,9 @@
     "Grupo": {
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":2}",
-
+      "32": "{\"Nombre\":\"sd\",\"Descripcion\":\"dsds\",\"profesorId\":1,\"id\":32}",
       "39": "{\"Nombre\":\"Prueba asignacion puntos\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":39}",
-      "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}",
-
-      "32": "{\"Nombre\":\"sd\",\"Descripcion\":\"dsds\",\"profesorId\":1,\"id\":32}"
-
-
+      "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}"
     },
     "Punto": {
       "2": "{\"Nombre\":\"Puntualidad\",\"Descripcion\":\"Se asignará puntos de puntualidad a los alumnos que lleguen a la hora a clase\",\"profesorId\":1,\"id\":2}",
@@ -145,17 +138,13 @@
     },
     "JuegoDeColeccion": {
       "1": "{\"NombreJuego\":\"Prueba Colección 1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":1,\"coleccionId\":2}",
-
       "2": "{\"NombreJuego\":\"a\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":2,\"coleccionId\":1}",
       "3": "{\"NombreJuego\":\"vb\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":3,\"coleccionId\":1}",
       "4": "{\"NombreJuego\":\"d\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":1,\"id\":4}",
-
       "9": "{\"NombreJuego\":\"dsdsd\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":32,\"id\":9,\"coleccionId\":2}",
       "10": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":32,\"id\":10,\"coleccionId\":2}",
       "11": "{\"NombreJuego\":\"col\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":32,\"id\":11,\"coleccionId\":2}",
-
       "12": "{\"NombreJuego\":\"fddf\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":2,\"id\":12,\"coleccionId\":1}"
-
     },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -383,7 +372,6 @@
       "3": "{\"juegoDeColeccionId\":3,\"equipoId\":3,\"id\":3}"
     },
     "Album": {
-
       "1": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":9,\"id\":1}",
       "2": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":10,\"id\":2}",
       "3": "{\"cromoId\":4,\"alumnoJuegoDeColeccionId\":11,\"id\":3}",
@@ -407,7 +395,6 @@
       "38": "{\"alumnoId\":2,\"juegoDeColeccionId\":12,\"id\":38}",
       "39": "{\"alumnoId\":12,\"juegoDeColeccionId\":12,\"id\":39}"
     },
-
     "AlbumEquipo": {},
     "JuegoDeCompeticionLiga": {
       "1": "{\"NumeroTotalJornadas\":7,\"NombreJuego\":\"Prueba Liga 1\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":1,\"TipoJuegoCompeticion\":\"Liga\",\"id\":1}",
@@ -675,40 +662,23 @@
       "7": "{\"preguntaId\":5,\"cuestionarioId\":7,\"id\":7}",
       "10": "{\"preguntaId\":6,\"cuestionarioId\":14,\"id\":10}",
       "13": "{\"preguntaId\":4,\"cuestionarioId\":6,\"id\":13}",
-
       "14": "{\"preguntaId\":3,\"cuestionarioId\":1,\"id\":14}",
       "16": "{\"preguntaId\":10,\"cuestionarioId\":1,\"id\":16}",
       "17": "{\"preguntaId\":3,\"cuestionarioId\":16,\"id\":17}",
       "19": "{\"preguntaId\":5,\"cuestionarioId\":16,\"id\":19}",
       "22": "{\"preguntaId\":9,\"cuestionarioId\":4,\"id\":22}",
       "23": "{\"preguntaId\":6,\"cuestionarioId\":4,\"id\":23}",
-      "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}"
+      "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}",
+      "25": "{\"preguntaId\":4,\"cuestionarioId\":1,\"id\":25}",
+      "26": "{\"preguntaId\":5,\"cuestionarioId\":1,\"id\":26}"
     },
     "Escenario": {
-      "10": "{\"Mapa\":\"m1\",\"Descripcion\":\"d1\",\"profesorId\":1,\"id\":10}",
-      "11": "{\"Mapa\":\"m2\",\"Descripcion\":\"d2\",\"profesorId\":1,\"id\":11}"
+      "15": "{\"Mapa\":\"map1\",\"Descripcion\":\"description1\",\"profesorId\":1,\"id\":15}",
+      "16": "{\"Mapa\":\"mapa2\",\"Descripcion\":\"descripcion2\",\"profesorId\":1,\"id\":16}"
     },
     "PuntoGeolocalizable": {
-      "1": "{\"Latitud\":\"lat1\",\"Longitud\":\"lon1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":1,\"id\":1}",
-      "2": "{\"Latitud\":\"lat2\",\"Longitud\":\"long2\",\"PistaFacil\":\"pf2\",\"PistaDificil\":\"pd2\",\"idescenario\":1,\"id\":2}",
-      "3": "{\"Latitud\":\"c\",\"Longitud\":\"d\",\"PistaFacil\":\"e\",\"PistaDificil\":\"f\",\"idescenario\":2,\"id\":3}",
-      "4": "{\"Latitud\":\"c\",\"Longitud\":\"d\",\"PistaFacil\":\"e\",\"PistaDificil\":\"f\",\"idescenario\":2,\"id\":4}",
-      "5": "{\"Latitud\":\"a\",\"Longitud\":\"b\",\"PistaFacil\":\"c\",\"PistaDificil\":\"d\",\"idescenario\":3,\"id\":5}",
-      "6": "{\"Latitud\":\"e\",\"Longitud\":\"f\",\"PistaFacil\":\"g\",\"PistaDificil\":\"h\",\"idescenario\":3,\"id\":6}",
-      "8": "{\"Latitud\":\"prueba1_latitud\",\"Longitud\":\"prueba1_longitud\",\"PistaFacil\":\"prueba1_pf\",\"PistaDificil\":\"prueba1_pd\",\"idescenario\":4,\"id\":8}",
-      "9": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":4,\"id\":9}",
-      "10": "{\"Latitud\":\"djv\",\"Longitud\":\"jv\",\"PistaFacil\":\"jd\",\"PistaDificil\":\"bfj\",\"idescenario\":6,\"id\":10}",
-      "14": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":10,\"id\":14}",
-      "15": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":10,\"id\":15}",
-      "16": "{\"Latitud\":\"3\",\"Longitud\":\"3\",\"PistaFacil\":\"3\",\"PistaDificil\":\"3\",\"idescenario\":10,\"id\":16}",
-      "17": "{\"Latitud\":\"1\",\"Longitud\":\"1\",\"PistaFacil\":\"1\",\"PistaDificil\":\"1\",\"idescenario\":11,\"id\":17}",
-      "18": "{\"Latitud\":\"2\",\"Longitud\":\"2\",\"PistaFacil\":\"2\",\"PistaDificil\":\"2\",\"idescenario\":11,\"id\":18}",
-      "19": "{\"Latitud\":\"5\",\"Longitud\":\"5\",\"PistaFacil\":\"5\",\"PistaDificil\":\"5\",\"idescenario\":10,\"id\":19}",
-      "20": "{\"Latitud\":\"afa\",\"Longitud\":\"ds\",\"PistaFacil\":\"gw\",\"PistaDificil\":\"few\",\"idescenario\":10,\"id\":20}",
-      "21": "{\"Latitud\":\"gs\",\"Longitud\":\"ew\",\"PistaFacil\":\"ew\",\"PistaDificil\":\"ewf\",\"idescenario\":10,\"id\":21}",
-      "22": "{\"Latitud\":\"a\",\"Longitud\":\"a\",\"PistaFacil\":\"a\",\"PistaDificil\":\"a\",\"idescenario\":10,\"id\":22}",
-      "23": "{\"Latitud\":\"d\",\"Longitud\":\"f\",\"PistaFacil\":\"f\",\"PistaDificil\":\"f\",\"idescenario\":12,\"id\":23}",
-      "24": "{\"Latitud\":\"l\",\"Longitud\":\"a\",\"PistaFacil\":\"d\",\"PistaDificil\":\"f\",\"idescenario\":12,\"id\":24}"
+      "34": "{\"Nombre\":\"b\",\"Latitud\":\"b\",\"Longitud\":\"b\",\"PistaFacil\":\"b\",\"PistaDificil\":\"b\",\"idescenario\":16,\"id\":34}",
+      "35": "{\"Nombre\":\"c\",\"Latitud\":\"c\",\"Longitud\":\"c\",\"PistaFacil\":\"c\",\"PistaDificil\":\"c\",\"idescenario\":16,\"id\":35}"
     },
     "SesionClase": {
       "1": "{\"id\":1}",
