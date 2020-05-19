@@ -40,7 +40,8 @@
     "JuegoDeAvatar": 20,
     "AlumnoJuegoDeAvatar": 23,
     "JuegoDeCuestionario": 15,
-    "AlumnoJuegoDeCuestionario": 65
+    "AlumnoJuegoDeCuestionario": 65,
+    "RespuestaAlumnoJuegoDeCuestionario": 17
   },
   "models": {
     "Profesor": {
@@ -712,7 +713,7 @@
       "9": "{\"Nota\":0,\"alumnoId\":1,\"juegoDeCuestionarioId\":7,\"id\":9}",
       "10": "{\"Nota\":0,\"alumnoId\":2,\"juegoDeCuestionarioId\":7,\"id\":10}",
       "11": "{\"Nota\":0,\"alumnoId\":3,\"juegoDeCuestionarioId\":7,\"id\":11}",
-      "12": "{\"Nota\":10,\"alumnoId\":0,\"juegoDeCuestionarioId\":7,\"id\":12}",
+      "12": "{\"Nota\":10,\"alumnoId\":4,\"juegoDeCuestionarioId\":7,\"id\":12}",
       "13": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":7,\"id\":13}",
       "14": "{\"Nota\":6,\"alumnoId\":6,\"juegoDeCuestionarioId\":7,\"id\":14}",
       "15": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":7,\"id\":15}",
@@ -736,6 +737,24 @@
       "62": "{\"Nota\":0,\"alumnoId\":5,\"juegoDeCuestionarioId\":14,\"id\":62}",
       "63": "{\"Nota\":0,\"alumnoId\":6,\"juegoDeCuestionarioId\":14,\"id\":63}",
       "64": "{\"Nota\":0,\"alumnoId\":7,\"juegoDeCuestionarioId\":14,\"id\":64}"
+    },
+    "RespuestaAlumnoJuegoDeCuestionario": {
+      "1": "{\"Respuesta\":\"NO CONTESTADO\",\"preguntaId\":1,\"alumnoJuegoDeCuestionarioId\":30,\"id\":1}",
+      "2": "{\"Respuesta\":\"Azul\",\"preguntaId\":3,\"alumnoJuegoDeCuestionarioId\":30,\"id\":2}",
+      "3": "{\"Respuesta\":\"6\",\"preguntaId\":1,\"alumnoJuegoDeCuestionarioId\":30,\"id\":3}",
+      "4": "{\"Respuesta\":\"NO CONTESTADA\",\"preguntaId\":10,\"alumnoJuegoDeCuestionarioId\":30,\"id\":4}",
+      "5": "{\"Respuesta\":\"Miguel\",\"preguntaId\":10,\"alumnoJuegoDeCuestionarioId\":30,\"id\":5}",
+      "6": "{\"Respuesta\":\"6\",\"preguntaId\":1,\"alumnoJuegoDeCuestionarioId\":30,\"id\":6}",
+      "7": "{\"Respuesta\":\"Blanco\",\"preguntaId\":3,\"alumnoJuegoDeCuestionarioId\":30,\"id\":7}",
+      "8": "{\"Respuesta\":\"6\",\"preguntaId\":1,\"alumnoJuegoDeCuestionarioId\":30,\"id\":8}",
+      "9": "{\"Respuesta\":\"Miguel\",\"preguntaId\":10,\"alumnoJuegoDeCuestionarioId\":30,\"id\":9}",
+      "10": "{\"Respuesta\":\"Blanco\",\"preguntaId\":3,\"alumnoJuegoDeCuestionarioId\":30,\"id\":10}",
+      "11": "{\"Respuesta\":\"6\",\"preguntaId\":1,\"alumnoJuegoDeCuestionarioId\":30,\"id\":11}",
+      "12": "{\"Respuesta\":\"Blanco\",\"preguntaId\":3,\"alumnoJuegoDeCuestionarioId\":30,\"id\":12}",
+      "13": "{\"Respuesta\":\"NO CONTESTADA\",\"preguntaId\":10,\"alumnoJuegoDeCuestionarioId\":30,\"id\":13}",
+      "14": "{\"Respuesta\":\"Miguel\",\"preguntaId\":10,\"alumnoJuegoDeCuestionarioId\":30,\"id\":14}",
+      "15": "{\"Respuesta\":\"6\",\"preguntaId\":1,\"alumnoJuegoDeCuestionarioId\":30,\"id\":15}",
+      "16": "{\"Respuesta\":\"NO CONTESTADA\",\"preguntaId\":3,\"alumnoJuegoDeCuestionarioId\":30,\"id\":16}"
     }
   }
 }
