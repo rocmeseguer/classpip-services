@@ -1,16 +1,20 @@
 # Classpip Service
+
+[![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
+[![Classpip Badge](https://img.shields.io/badge/classpip-mobile--profe-brightgreen)](https://github.com/rocmeseguer/classpip-mobile-profe)
+[![Classpip Badge](https://img.shields.io/badge/classpip-mobile--student-brightgreen)](https://github.com/rocmeseguer/classpip-mobile-student)
+[![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
+[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/classpip/classpip/blob/master/LICENSE)
+
 Classpip is a software architecture for teachers and students to perform school gamification activities inside the school environment through different platforms such as mobiles, tablets and computers.
 
 The software architecture is composed by two mobile applications for performing “quick” class activities oriented to teachers and students. For “long” operations such as deep into reports and setup the platform there is an administration dashboard accessible from every computer. These three pieces share the information through a service-oriented architecture that exposes the main methods for data manipulation.
 
-![classpip-arch](https://github.com/classpip/classpip/raw/master/images/project-architecture.png)
-[![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
-[![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile)
-[![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
-[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/classpip/classpip/blob/master/LICENSE)
-
 ## Classpip-services
 This repository contains the service-oriented application that exposes the main methods for data manipulation.
+
+## Current models
+Consult here the [current data models](https://github.com/rocmeseguer/classpip-services/blob/master/ModelosClasspip.pdf) for Classpip.
 
 ## Git and GitHub
 
@@ -40,7 +44,7 @@ sudo apt-get install gcc g++ make
 ### To build native addons on Windows
 
 ```
-npm install -g windows-build-tools@~5.1.0
+npm install -g windows-build-tools@5.1.0
 ```
 
 ## Global dependencies
@@ -48,8 +52,8 @@ npm install -g windows-build-tools@~5.1.0
 You have to install LoopBack tooling for managing the model:
 
 ```
-npm install -g strongloop@~6.0.3
-npm install -g loopback/cli~@5.0.0
+npm install -g strongloop@6.0.3
+npm install -g loopback-cli@5.0.0
 ```
 
 ## Local dependencies
