@@ -31,11 +31,14 @@
     "JornadaDeCompeticionFormulaUno": 33,
     "AlumnoJuegoDeCompeticionFormulaUno": 45,
     "EquipoJuegoDeCompeticionFormulaUno": 7,
+
     "Escenario": 18,
     "PuntoGeolocalizable": 38,
     "Pregunta": 13,
     "Cuestionario": 21,
     "PreguntaDelCuestionario": 30,
+
+
     "SesionClase": 27,
     "AsistenciaClase": 61,
     "FamiliaAvatares": 48,
@@ -70,7 +73,8 @@
     },
     "Grupo": {
 
-      "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":2}",
+
+ 
       "39": "{\"Nombre\":\"Prueba asignacion puntos\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":39}",
       "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}",
       "42": "{\"Nombre\":\"Pruebas Colecciones\",\"Descripcion\":\"sa\",\"profesorId\":1,\"id\":42}",
@@ -79,6 +83,10 @@
       "1": "{\"id\":1,\"Nombre\":\"Grupo 1\",\"Descripcion\":\"Física 1ºESO\",\"profesorId\":1}",
       "2": "{\"Nombre\":\"Grupo 2\",\"Descripcion\":\"Catalán 2º ESO\",\"profesorId\":1,\"id\":2}",
       "3": "{\"Nombre\":\"PruebaMovil\",\"Descripcion\":\"personalizado app\",\"profesorId\":1,\"id\":3}"
+
+      "32": "{\"Nombre\":\"sd\",\"Descripcion\":\"dsds\",\"profesorId\":1,\"id\":32}",
+      "39": "{\"Nombre\":\"Prueba asignacion puntos\",\"Descripcion\":\"a\",\"profesorId\":1,\"id\":39}",
+      "40": "{\"Nombre\":\"Demo avatares\",\"Descripcion\":\"Demo avatares\",\"profesorId\":1,\"id\":40}"
 
     },
     "Punto": {
@@ -199,45 +207,7 @@
       "20": "{\"NombreJuego\":\"JuegoPuntos-Ind1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":43,\"id\":20}"
     },
     "JuegoDeColeccion": {
-      "13": "{\"NombreJuego\":\"Coleccion\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":40,\"id\":13,\"coleccionId\":2}",
-      "26": "{\"NombreJuego\":\"xol\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":40,\"id\":26,\"coleccionId\":45}",
-      "27": "{\"NombreJuego\":\"compositores\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":40,\"id\":27,\"coleccionId\":46}",
-      "28": "{\"NombreJuego\":\"Una cara\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":40,\"id\":28,\"coleccionId\":40}",
-      "29": "{\"NombreJuego\":\"Una cara\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":42,\"id\":29,\"coleccionId\":40}",
-      "30": "{\"NombreJuego\":\"Dos caras\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":42,\"id\":30,\"coleccionId\":46}",
-      "31": "{\"NombreJuego\":\"Escritores\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":false,\"grupoId\":42,\"id\":31,\"coleccionId\":30}",
-      "32": "{\"NombreJuego\":\"Escritore\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":42,\"id\":32,\"coleccionId\":30}",
-      "33": "{\"NombreJuego\":\"Col equipos\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":42,\"id\":33,\"coleccionId\":46}"
-    },
-    "Matricula": {
-      "121": "{\"alumnoId\":12,\"grupoId\":40,\"id\":121}",
-      "122": "{\"alumnoId\":7,\"grupoId\":40,\"id\":122}",
-      "123": "{\"alumnoId\":23,\"grupoId\":40,\"id\":123}",
-      "124": "{\"alumnoId\":15,\"grupoId\":40,\"id\":124}",
-      "125": "{\"alumnoId\":12,\"grupoId\":42,\"id\":125}",
-      "126": "{\"alumnoId\":7,\"grupoId\":42,\"id\":126}",
-      "127": "{\"alumnoId\":23,\"grupoId\":42,\"id\":127}",
-      "128": "{\"alumnoId\":15,\"grupoId\":42,\"id\":128}",
-      "129": "{\"alumnoId\":1,\"grupoId\":43,\"id\":129}",
-      "130": "{\"alumnoId\":3,\"grupoId\":43,\"id\":130}",
-      "131": "{\"alumnoId\":5,\"grupoId\":43,\"id\":131}",
-      "132": "{\"alumnoId\":11,\"grupoId\":43,\"id\":132}",
-      "133": "{\"alumnoId\":6,\"grupoId\":43,\"id\":133}",
-      "134": "{\"alumnoId\":7,\"grupoId\":43,\"id\":134}",
-      "135": "{\"alumnoId\":23,\"grupoId\":43,\"id\":135}",
-      "136": "{\"alumnoId\":12,\"grupoId\":43,\"id\":136}",
-      "137": "{\"alumnoId\":10,\"grupoId\":43,\"id\":137}",
-      "138": "{\"alumnoId\":2,\"grupoId\":43,\"id\":138}"
-    },
-    "JuegoDePuntos": {
-      "5": "{\"NombreJuego\":\"TestPuntos1\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":3,\"id\":5}",
-      "6": "{\"NombreJuego\":\"TestPuntos2\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":3,\"id\":6}",
-      "7": "{\"NombreJuego\":\"JuegoPuntos3\",\"Tipo\":\"Juego De Puntos\",\"Modo\":\"Equipos\",\"JuegoActivo\":false,\"grupoId\":1,\"id\":7}"
-    },
-    "JuegoDeColeccion": {
-      "2": "{\"NombreJuego\":\"TestColecciones1\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":3,\"id\":2,\"coleccionId\":2}",
-      "3": "{\"NombreJuego\":\"TestColecciones2\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":true,\"grupoId\":3,\"id\":3,\"coleccionId\":2}",
-      "4": "{\"NombreJuego\":\"JuegoCollec3\",\"Tipo\":\"Juego De Colección\",\"Modo\":\"Equipos\",\"JuegoActivo\":false,\"grupoId\":1,\"id\":4,\"coleccionId\":2}"
+
     },
     "Matricula": {
       "1": "{\"alumnoId\":1,\"grupoId\":1,\"id\":1}",
@@ -652,6 +622,7 @@
       "11": "{\"cromoId\":95,\"equipoJuegoDeColeccionId\":10,\"id\":11}",
       "12": "{\"cromoId\":96,\"equipoJuegoDeColeccionId\":10,\"id\":12}"
     },
+
     "JuegoDeCompeticionLiga": {
       "4": "{\"NumeroTotalJornadas\":3,\"NombreJuego\":\"Liga\",\"Tipo\":\"Juego De Competición Liga\",\"Modo\":\"Individual\",\"JuegoActivo\":true,\"grupoId\":3,\"TipoJuegoCompeticion\":\"Liga\",\"id\":4}"
     },
@@ -829,15 +800,11 @@
       "19": "{\"preguntaId\":5,\"cuestionarioId\":16,\"id\":19}",
       "22": "{\"preguntaId\":9,\"cuestionarioId\":4,\"id\":22}",
       "23": "{\"preguntaId\":6,\"cuestionarioId\":4,\"id\":23}",
-      "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}",
-      "26": "{\"preguntaId\":8,\"cuestionarioId\":20,\"id\":26}",
-      "27": "{\"preguntaId\":11,\"cuestionarioId\":20,\"id\":27}",
-      "28": "{\"preguntaId\":9,\"cuestionarioId\":20,\"id\":28}",
-      "29": "{\"preguntaId\":3,\"cuestionarioId\":20,\"id\":29}"
+      "24": "{\"preguntaId\":3,\"cuestionarioId\":4,\"id\":24}"
     },
     "Escenario": {
-      "10": "{\"Mapa\":\"m1\",\"Descripcion\":\"d1\",\"profesorId\":1,\"id\":10}",
-      "11": "{\"Mapa\":\"m2\",\"Descripcion\":\"d2\",\"profesorId\":1,\"id\":11}"
+      "15": "{\"Mapa\":\"map1\",\"Descripcion\":\"description1\",\"profesorId\":1,\"id\":15}",
+      "16": "{\"Mapa\":\"mapa2\",\"Descripcion\":\"descripcion2\",\"profesorId\":1,\"id\":16}"
     },
     "PuntoGeolocalizable": {
       "1": "{\"Latitud\":\"lat1\",\"Longitud\":\"lon1\",\"PistaFacil\":\"pf1\",\"PistaDificil\":\"pd1\",\"idescenario\":1,\"id\":1}",
@@ -857,6 +824,7 @@
       "29": "{\"Latitud\":\"g\",\"Longitud\":\"g\",\"PistaFacil\":\"g\",\"PistaDificil\":\"g\",\"idescenario\":15,\"Nombre\":\"g\",\"id\":29}",
       "36": "{\"Latitud\":\"d\",\"Longitud\":\"d\",\"PistaFacil\":\"d\",\"PistaDificil\":\"d\",\"idescenario\":17,\"Nombre\":\"d\",\"id\":36}",
       "37": "{\"Latitud\":\"s\",\"Longitud\":\"s\",\"PistaFacil\":\"s\",\"PistaDificil\":\"s\",\"idescenario\":11,\"Nombre\":\"s\",\"id\":37}"
+
     },
     "SesionClase": {
       "1": "{\"id\":1}"
