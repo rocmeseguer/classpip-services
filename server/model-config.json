@@ -211,6 +211,16 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
+
+  "PuntoGeolocalizable": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "Escenario": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+
   "JuegoDeCuestionario": {
     "dataSource": "baseDatosEnMemoria",
     "public": true
@@ -243,4 +253,5 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   }
+
 }
