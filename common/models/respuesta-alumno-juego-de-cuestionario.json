@@ -1,18 +1,14 @@
 {
-  "name": "Jornada",
-  "plural": "Jornadas",
+  "name": "RespuestaAlumnoJuegoDeCuestionario",
+  "plural": "RespuestasAlumnoJuegoDeCuestionario",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "Nombre": {
+    "Respuesta": {
       "type": "string",
-      "required": true
-    },
-    "Fecha": {
-      "type": "date",
       "required": true
     }
   },

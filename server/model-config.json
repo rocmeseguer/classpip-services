@@ -1,4 +1,3 @@
-
 {
   "_meta": {
     "sources": [
@@ -230,11 +229,29 @@
     "dataSource": "baseDatosEnMemoria",
     "public": true
   },
-  "SesionClase":{"dataSource":"baseDatosEnMemoria","public":true},
-  "AsistenciaClase":{"dataSource":"baseDatosEnMemoria","public":true},
-  "FamiliaAvatares":{"dataSource":"baseDatosEnMemoria","public":true},
-  "JuegoDeAvatar":{"dataSource":"baseDatosEnMemoria","public":true},
-  "AlumnoJuegoDeAvatar":{"dataSource":"baseDatosEnMemoria","public":true}
+  "SesionClase": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AsistenciaClase": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "FamiliaAvatares": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "JuegoDeAvatar": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "AlumnoJuegoDeAvatar": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  },
+  "RespuestaAlumnoJuegoDeCuestionario": {
+    "dataSource": "baseDatosEnMemoria",
+    "public": true
+  }
 
 }
-
